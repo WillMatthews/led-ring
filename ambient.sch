@@ -1,0 +1,407 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_Coaxial J1
+U 1 1 5E911158
+P 1500 1500
+F 0 "J1" H 1428 1738 50  0000 C CNN
+F 1 "Conn_Coaxial" H 1428 1647 50  0000 C CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 1500 1500 50  0001 C CNN
+F 3 " ~" H 1500 1500 50  0001 C CNN
+	1    1500 1500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 5E911E58
+P 2000 1650
+F 0 "D1" V 2039 1533 50  0000 R CNN
+F 1 "LED" V 1948 1533 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm" H 2000 1650 50  0001 C CNN
+F 3 "~" H 2000 1650 50  0001 C CNN
+	1    2000 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5E912C42
+P 2000 1950
+F 0 "R1" H 2070 1996 50  0000 L CNN
+F 1 "R" H 2070 1905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1930 1950 50  0001 C CNN
+F 3 "~" H 2000 1950 50  0001 C CNN
+	1    2000 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 1700 1500 2100
+Wire Wire Line
+	1500 2100 2000 2100
+Wire Wire Line
+	1700 1500 2000 1500
+$Comp
+L Device:LED D2
+U 1 1 5E91392B
+P 2350 1650
+F 0 "D2" V 2389 1533 50  0000 R CNN
+F 1 "LED" V 2298 1533 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm" H 2350 1650 50  0001 C CNN
+F 3 "~" H 2350 1650 50  0001 C CNN
+	1    2350 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5E913931
+P 2350 1950
+F 0 "R2" H 2420 1996 50  0000 L CNN
+F 1 "R" H 2420 1905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2280 1950 50  0001 C CNN
+F 3 "~" H 2350 1950 50  0001 C CNN
+	1    2350 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D3
+U 1 1 5E913D4F
+P 2700 1650
+F 0 "D3" V 2739 1533 50  0000 R CNN
+F 1 "LED" V 2648 1533 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm" H 2700 1650 50  0001 C CNN
+F 3 "~" H 2700 1650 50  0001 C CNN
+	1    2700 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5E913D55
+P 2700 1950
+F 0 "R3" H 2770 1996 50  0000 L CNN
+F 1 "R" H 2770 1905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2630 1950 50  0001 C CNN
+F 3 "~" H 2700 1950 50  0001 C CNN
+	1    2700 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D4
+U 1 1 5E914283
+P 3050 1650
+F 0 "D4" V 3089 1533 50  0000 R CNN
+F 1 "LED" V 2998 1533 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm" H 3050 1650 50  0001 C CNN
+F 3 "~" H 3050 1650 50  0001 C CNN
+	1    3050 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5E914289
+P 3050 1950
+F 0 "R4" H 3120 1996 50  0000 L CNN
+F 1 "R" H 3120 1905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2980 1950 50  0001 C CNN
+F 3 "~" H 3050 1950 50  0001 C CNN
+	1    3050 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D5
+U 1 1 5E9147ED
+P 3400 1650
+F 0 "D5" V 3439 1533 50  0000 R CNN
+F 1 "LED" V 3348 1533 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm" H 3400 1650 50  0001 C CNN
+F 3 "~" H 3400 1650 50  0001 C CNN
+	1    3400 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5E9147F3
+P 3400 1950
+F 0 "R5" H 3470 1996 50  0000 L CNN
+F 1 "R" H 3470 1905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3330 1950 50  0001 C CNN
+F 3 "~" H 3400 1950 50  0001 C CNN
+	1    3400 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D6
+U 1 1 5E9151B3
+P 3750 1650
+F 0 "D6" V 3789 1533 50  0000 R CNN
+F 1 "LED" V 3698 1533 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm" H 3750 1650 50  0001 C CNN
+F 3 "~" H 3750 1650 50  0001 C CNN
+	1    3750 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 5E9151B9
+P 3750 1950
+F 0 "R6" H 3820 1996 50  0000 L CNN
+F 1 "R" H 3820 1905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3680 1950 50  0001 C CNN
+F 3 "~" H 3750 1950 50  0001 C CNN
+	1    3750 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D7
+U 1 1 5E9154C1
+P 4100 1650
+F 0 "D7" V 4139 1533 50  0000 R CNN
+F 1 "LED" V 4048 1533 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm" H 4100 1650 50  0001 C CNN
+F 3 "~" H 4100 1650 50  0001 C CNN
+	1    4100 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 5E9154C7
+P 4100 1950
+F 0 "R7" H 4170 1996 50  0000 L CNN
+F 1 "R" H 4170 1905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4030 1950 50  0001 C CNN
+F 3 "~" H 4100 1950 50  0001 C CNN
+	1    4100 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D8
+U 1 1 5E91594B
+P 4450 1650
+F 0 "D8" V 4489 1533 50  0000 R CNN
+F 1 "LED" V 4398 1533 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm" H 4450 1650 50  0001 C CNN
+F 3 "~" H 4450 1650 50  0001 C CNN
+	1    4450 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 5E915951
+P 4450 1950
+F 0 "R8" H 4520 1996 50  0000 L CNN
+F 1 "R" H 4520 1905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4380 1950 50  0001 C CNN
+F 3 "~" H 4450 1950 50  0001 C CNN
+	1    4450 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D9
+U 1 1 5E916E8F
+P 4800 1650
+F 0 "D9" V 4839 1533 50  0000 R CNN
+F 1 "LED" V 4748 1533 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm" H 4800 1650 50  0001 C CNN
+F 3 "~" H 4800 1650 50  0001 C CNN
+	1    4800 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 5E916E95
+P 4800 1950
+F 0 "R9" H 4870 1996 50  0000 L CNN
+F 1 "R" H 4870 1905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4730 1950 50  0001 C CNN
+F 3 "~" H 4800 1950 50  0001 C CNN
+	1    4800 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D10
+U 1 1 5E917433
+P 5150 1650
+F 0 "D10" V 5189 1533 50  0000 R CNN
+F 1 "LED" V 5098 1533 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm" H 5150 1650 50  0001 C CNN
+F 3 "~" H 5150 1650 50  0001 C CNN
+	1    5150 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R10
+U 1 1 5E917439
+P 5150 1950
+F 0 "R10" H 5220 1996 50  0000 L CNN
+F 1 "R" H 5220 1905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5080 1950 50  0001 C CNN
+F 3 "~" H 5150 1950 50  0001 C CNN
+	1    5150 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D11
+U 1 1 5E91780D
+P 5500 1650
+F 0 "D11" V 5539 1533 50  0000 R CNN
+F 1 "LED" V 5448 1533 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm" H 5500 1650 50  0001 C CNN
+F 3 "~" H 5500 1650 50  0001 C CNN
+	1    5500 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R11
+U 1 1 5E917813
+P 5500 1950
+F 0 "R11" H 5570 1996 50  0000 L CNN
+F 1 "R" H 5570 1905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5430 1950 50  0001 C CNN
+F 3 "~" H 5500 1950 50  0001 C CNN
+	1    5500 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D12
+U 1 1 5E917C41
+P 5850 1650
+F 0 "D12" V 5889 1533 50  0000 R CNN
+F 1 "LED" V 5798 1533 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm" H 5850 1650 50  0001 C CNN
+F 3 "~" H 5850 1650 50  0001 C CNN
+	1    5850 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R12
+U 1 1 5E917C47
+P 5850 1950
+F 0 "R12" H 5920 1996 50  0000 L CNN
+F 1 "R" H 5920 1905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5780 1950 50  0001 C CNN
+F 3 "~" H 5850 1950 50  0001 C CNN
+	1    5850 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 2100 5500 2100
+Connection ~ 2000 2100
+Connection ~ 2350 2100
+Wire Wire Line
+	2350 2100 2000 2100
+Connection ~ 2700 2100
+Wire Wire Line
+	2700 2100 2350 2100
+Connection ~ 3050 2100
+Wire Wire Line
+	3050 2100 2700 2100
+Connection ~ 3400 2100
+Wire Wire Line
+	3400 2100 3050 2100
+Connection ~ 3750 2100
+Wire Wire Line
+	3750 2100 3400 2100
+Connection ~ 4100 2100
+Wire Wire Line
+	4100 2100 3750 2100
+Connection ~ 4450 2100
+Wire Wire Line
+	4450 2100 4100 2100
+Connection ~ 4800 2100
+Wire Wire Line
+	4800 2100 4450 2100
+Connection ~ 5150 2100
+Wire Wire Line
+	5150 2100 4800 2100
+Connection ~ 5500 2100
+Wire Wire Line
+	5500 2100 5150 2100
+Wire Wire Line
+	2000 1500 2350 1500
+Connection ~ 2000 1500
+Connection ~ 2350 1500
+Wire Wire Line
+	2350 1500 2700 1500
+Connection ~ 2700 1500
+Wire Wire Line
+	2700 1500 3050 1500
+Connection ~ 3050 1500
+Wire Wire Line
+	3050 1500 3400 1500
+Connection ~ 3400 1500
+Wire Wire Line
+	3400 1500 3750 1500
+Connection ~ 3750 1500
+Wire Wire Line
+	3750 1500 4100 1500
+Connection ~ 4100 1500
+Wire Wire Line
+	4100 1500 4450 1500
+Connection ~ 4450 1500
+Wire Wire Line
+	4450 1500 4800 1500
+Connection ~ 4800 1500
+Wire Wire Line
+	4800 1500 5150 1500
+Connection ~ 5150 1500
+Wire Wire Line
+	5150 1500 5500 1500
+Connection ~ 5500 1500
+Wire Wire Line
+	5500 1500 5850 1500
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5E92614F
+P 4000 1000
+F 0 "H3" H 4100 1046 50  0000 L CNN
+F 1 "MountingHole" H 4100 955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 4000 1000 50  0001 C CNN
+F 3 "~" H 4000 1000 50  0001 C CNN
+	1    4000 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5E92737F
+P 3000 1000
+F 0 "H1" H 3100 1046 50  0000 L CNN
+F 1 "MountingHole" H 3100 955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 3000 1000 50  0001 C CNN
+F 3 "~" H 3000 1000 50  0001 C CNN
+	1    3000 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5E92ABF9
+P 4000 1250
+F 0 "H4" H 4100 1296 50  0000 L CNN
+F 1 "MountingHole" H 4100 1205 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 4000 1250 50  0001 C CNN
+F 3 "~" H 4000 1250 50  0001 C CNN
+	1    4000 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5E92ABFF
+P 3000 1250
+F 0 "H2" H 3100 1296 50  0000 L CNN
+F 1 "MountingHole" H 3100 1205 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 3000 1250 50  0001 C CNN
+F 3 "~" H 3000 1250 50  0001 C CNN
+	1    3000 1250
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
